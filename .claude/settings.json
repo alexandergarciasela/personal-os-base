@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "autoMemoryEnabled": false,
+  "permissions": {
+    "allow": [
+      "Bash(python3 -I scripts/revisar.py *)",
+      "Bash(bash scripts/instalar.sh)",
+      "Bash(git status *)",
+      "Bash(git diff *)",
+      "Bash(git log *)",
+      "Bash(git add *)"
+    ],
+    "ask": [
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "mcp__*__create_*",
+      "mcp__*__update_*",
+      "mcp__*__delete_*",
+      "mcp__*__save_*",
+      "mcp__*__send_*",
+      "mcp__*__*_send_*",
+      "mcp__*__post_*",
+      "mcp__*__*_post*",
+      "mcp__*__reply_*",
+      "mcp__*__share_*",
+      "mcp__*__add_*",
+      "mcp__*__upload_*",
+      "mcp__*__notion-create-*",
+      "mcp__*__notion-update-*",
+      "mcp__*__notion-delete-*"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git push * --force*)",
+      "Bash(git commit --no-verify *)",
+      "Bash(git commit * --no-verify*)"
+    ]
+  }
+}

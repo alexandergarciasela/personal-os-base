@@ -1,0 +1,6 @@
+#!/bin/bash
+# Se activa con: git config core.hooksPath .githooks (lo hace scripts/instalar.sh). Lo que revisa vive en scripts/revisar.py.
+set -u
+ROOT="$(git rev-parse --show-toplevel 2>/dev/null)" || { echo "pre-commit: no estoy dentro de un repo de git" >&2; exit 1; }
+command -v python3 >/dev/null 2>&1 || { echo "pre-commit: falta python3 | arreglo: instálalo y vuelve a intentar" >&2; exit 1; }
+exec python3 -I "$ROOT/scripts/revisar.py" staged

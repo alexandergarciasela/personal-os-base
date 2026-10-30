@@ -1,0 +1,20 @@
+# Borradores y estado local: fuera de git por diseño.
+trabajo/
+.state/
+
+# Secretos: nunca entran.
+.env
+.env.*
+
+# Configuración personal de las herramientas.
+.claude/settings.local.json
+.codex/*.local.toml
+
+# Estado local de otras herramientas.
+.omc/
+
+# Basura de sistema.
+.DS_Store
+__pycache__/
+*.pyc
+node_modules/
