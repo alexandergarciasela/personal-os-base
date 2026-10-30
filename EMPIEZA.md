@@ -8,6 +8,8 @@ Si la persona responde de más, usa lo que sirva y no vuelvas a pedir lo que ya 
 Antes de la primera pregunta avisa: datos ficticios o anonimizados; `private/` queda intacta. Los ejemplos son ficticios: no los atribuyas a la persona.
 Si pega algo confidencial o una clave, no lo repitas ni lo guardes; pide una versión limpia y aclara que lo ya enviado al chat no se borra.
 No instales nada, no conectes herramientas, no envíes mensajes.
+Usa las secciones de cada plantilla; registra fuente y fecha sin inventarlas.
+Si la persona pausa antes de un bloque, ofrece guardar lo respondido con el mismo proceso; lo demás queda pendiente.
 Después de las preguntas 5, 7 y 8, muestra completo cada archivo que cambia, con su ruta, y pregunta: "¿Guardo estos archivos y su avance?". Solo un sí guarda ese bloque; si pide cambios, corrige y vuelve a mostrar.
 Si puedes escribir archivos: guarda primero el contexto, revisa que quedó, y luego actualiza Avance aquí. Si no puedes (claude.ai): entrega cada archivo completo; la persona lo guarda y reemplaza la copia del proyecto, y al final reemplaza este archivo. Pide que confirme "guardado y actualizado"; no digas que verificaste lo que no puedes ver.
 En este archivo solo cambia la sección Avance. Marca una pregunta solo cuando su respuesta aprobada ya está guardada, también si fue "ahora no".
