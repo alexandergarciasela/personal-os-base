@@ -1,36 +1,49 @@
-# El taller: de carpeta vacía a personal OS en 50 minutos
+# Prepara tu próximo 1:1 en cincuenta minutos
 
-Cuatro paradas. En cada una escribes algo real tuyo y le haces una pregunta a Claude. El objetivo es que la carpeta exista, conteste y una rutina corra; no que quede perfecta.
+Antes: sesión iniciada en Claude Code o claude.ai, y el enlace de la base abierto. Usa material ficticio o anonimizado. Hoy no instalamos herramientas ni conectamos nada. Si usas el caso ficticio, trabaja en una copia de práctica con `abiertos.md`; no crees tareas ficticias en tu herramienta real.
 
-Antes de empezar: ten abierto Claude Code o claude.ai con sesión iniciada. Hoy no abrimos cuentas ni depuramos logins. Si vas a pegar una reunión real, que sea tuya y sin datos de terceros; si no, usa esta: "Junta con Ana, hoy. Acordamos que yo le mando la propuesta el viernes y ella consigue el presupuesto antes del 15. Decidimos empezar por el piloto chico y no por el lanzamiento completo."
+## Parada 1: tu contexto, minutos 0 a 10
+1. Descarga la base limpia y sigue la ruta de tu herramienta en `README.md`.
+2. Lee las cinco reglas de `CLAUDE.md`.
+3. Llena `me.md`: rol, forma de trabajar, una meta, un mensaje tuyo y fuente de pendientes.
+4. Escribe un pendiente en `abiertos.md`, o anota tu herramienta y su enlace en `me.md` y borra `abiertos.md`.
+5. Pregunta: `¿qué tengo abierto? dime de dónde lo sacaste`.
 
-El ciclo es siempre el mismo: tú dictas o pegas, Claude consulta la carpeta, te propone un borrador, tú revisas y guardas o envías.
+Pasa si usa tu pendiente o pide los datos de la herramienta, sin inventar acceso.
 
-## Parada 1 (minutos 0 a 10): hazla tuya
-1. Descarga esta carpeta al escritorio con el nombre `personal-os`.
-2. Llena `me.md`: seis líneas. En `metas.md`, un resultado y un foco bastan. Tres pendientes reales en `abiertos.md`. Sin clientes, sin montos, sin tokens.
-3. Abre la carpeta con Claude Code. O en claude.ai: proyecto nuevo, sube los archivos de la carpeta y pega `AGENTS.md` en las instrucciones.
-4. Pregunta: `¿qué tengo abierto?`
+## Parada 2: una persona y un producto, minutos 10 a 25
+1. Completa una persona en `people.md`: rol, producto y una preferencia conocida.
+2. Completa un producto con estado, fecha y una decisión; `projects/ejemplo.md` es la muestra.
+3. En `me.md`, anota la persona y la fecha de tu próximo 1:1.
+4. Guarda los archivos y, en claude.ai, actualiza el proyecto como dice `README.md`.
 
-Funciona si contesta con lo tuyo y pregunta lo que no sabe.
+Pasa si al preguntar encuentra a esa persona y el estado del producto.
 
-## Parada 2 (minutos 10 a 25): tu primera reunión
-1. Pega una transcripción, o dicta en tres líneas lo que pasó en tu última reunión.
-2. Di: `archiva esto`.
-3. Revisa el bloque numerado que propone: el crudo, la síntesis, las decisiones, la carpeta de la persona, los pendientes. Di "todo" o "1 y 3". En claude.ai, guarda tú los archivos que te entrega y súbelos al proyecto.
-4. Abre `reuniones/`, `decisiones/` y `personas/`. Esa es tu memoria creciendo.
+## Parada 3: archiva lo que pasó, minutos 25 a 40
+1. Pega tu reunión, o la del caso de abajo, y di `archiva esto`.
+2. Revisa la síntesis y la decisión en el producto; mira dónde quedaron las acciones.
+3. Si usas una herramienta, aplica ahí los cambios; en la carpeta quedan solo referencias.
+4. Di `cierra el día` y confirma qué terminaste; vale responder "nada".
+5. Guarda los cambios como dice `README.md`.
 
-## Parada 3 (minutos 25 a 40): dos rutinas sobre lo que acabas de archivar
-1. Di: `prepárame para <la persona de la reunión>`. Lee lo que te debe, lo que le debes y qué preguntar.
-2. Di: `cierra el día`. Contesta qué cerraste. Mira cómo cambia `abiertos.md` y el perfil de la persona.
-3. Si ya tienes un conector (MCP) de calendario o correo activo, marca "sí" en `contexto/fuentes.md` y pregunta `¿qué tengo hoy?`. Si no, queda para esta semana: en claude.ai es Configuración, Conectores; en Claude Code, `/mcp`.
+Pasa si cada tarea tiene un solo lugar y ninguna se cerró por suposición.
 
-## Parada 4 (minutos 40 a 50): que persista
-1. Cierra el chat. Abre otro. Pregunta `¿qué tengo abierto?`. Si contesta con lo de hoy, tu memoria ya no depende del chat.
-2. Respalda: copia la carpeta a tu nube o guarda un ZIP. Si quieres versiones, `bash scripts/instalar.sh` y súbela a un repo privado.
-3. Mira en pantalla las capas que siguen: permisos (tú envías), un agente siempre encendido que lee la carpeta desde GitHub, y otros repos que ejecutan con tu contexto. Hoy no se instalan.
+## Parada 4: otro chat, minutos 40 a 50
+1. Abre una sesión nueva en la misma carpeta o en el proyecto actualizado.
+2. Di exactamente: `prepárame para mi próximo 1:1`.
+3. Revisa persona, producto, decisión y fuentes; qué le debes y qué preguntar.
+4. Si tus pendientes están en una herramienta que Claude no lee, debe pedírtelos; pégalos.
+5. Si falla, corrige el archivo que falta y repite. Respalda tu copia sin `private/`.
+
+Pasa si usa lo guardado y reconoce lo que no puede consultar.
+
+## Caso ficticio, si no traes una reunión
+Tú llevas el producto Turno (`projects/ejemplo.md`). En `people.md`, registra a Ana: responsable de diseño de Turno; pide mensajes breves, con la decisión al principio. En `me.md`, anota un 1:1 con Ana el 2026-11-02 a las 10:00, hora de Ciudad de México.
+
+Pega esto en la parada 3:
+"Reunión de Turno, 2026-10-30. Ana y yo decidimos probar el prototipo en una sola sala para detectar problemas antes de ampliarlo. Yo le mando a Ana el guion de prueba el 2026-11-02 antes del 1:1. Ana trae dos horarios posibles al mismo 1:1. Los recordatorios quedan para después del piloto. Ana pidió mensajes breves con la decisión al principio."
+
+Para probar el cierre, di: "No terminé ninguna de esas acciones".
 
 ## Esta semana
-- Una rutina corre de verdad: una reunión archivada o un cierre del día.
-- Un conector conectado, con sesión ya iniciada y en una tarde tranquila.
-- La primera regla nueva nace cuando algo salga mal dos veces.
+Archiva una conversación real, revisa los cambios y prepara la siguiente. Actualiza la fecha del próximo 1:1 cuando termine.
