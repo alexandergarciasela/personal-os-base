@@ -8,3 +8,6 @@
 *.pem
 *.key
 .DS_Store
+
+# Estado local de otras herramientas.
+.omc/
