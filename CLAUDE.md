@@ -7,7 +7,10 @@ Responde en español, con frases cortas y sin guion largo.
 - `people.md`: personas, cómo prefieren que les escriba y contexto de conversaciones.
 - `projects/<producto>.md`: estado, decisiones y novedades de cada producto.
 - `private/`: originales y material confidencial; lee su README antes de usarla.
-- `README.md` explica el uso; `TALLER.md` guía la práctica.
+- `README.md` explica el uso; `EMPIEZA.md` conduce la entrevista de arranque y guarda su avance.
+
+## Al iniciar
+Lee `me.md` y la sección Avance de `EMPIEZA.md`. Si quedan campos de plantilla sin llenar o el arranque está pendiente, sigue `EMPIEZA.md` desde el primer paso sin completar. "Empieza" y "sigamos" también lo invocan, sin reiniciar lo aprobado ni interrumpir otra petición.
 
 ## Cinco reglas
 1. Lee `me.md` al empezar y los archivos que la petición necesite. Apoya cada respuesta en lo que leíste y di de qué archivo o enlace sale y de qué fecha. Avisa si un dato está viejo o se contradice.
