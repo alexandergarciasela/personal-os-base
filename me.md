@@ -4,7 +4,7 @@
 
 ## Mi trabajo
 Nombre: [nombre]
-Rol: [qué hago y de qué respondo]
+Puesto: [mi puesto y en qué empresa o por mi cuenta]
 
 ## Así quiero que trabajes conmigo
 [Dos instrucciones concretas: largo de las respuestas, cuándo preguntar, si quieres que te lleve la contra.]
